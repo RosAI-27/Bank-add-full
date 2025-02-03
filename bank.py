@@ -5,6 +5,8 @@ import pandas as pd
 
 # Load the trained model and scaler
 scaler = joblib.load('scaler.pkl')
+# Load the model
+model = joblib.load('logistic_regression_model.pkl')
 
 # Streamlit app
 st.title("Bank Marketing Campaign Prediction")
