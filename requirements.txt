@@ -1,5 +1,3 @@
-streamlit
-pandas
-scikit-learn
-joblib
-gdown
+git add requirements.txt bank_add.py
+git commit -m "Fix requirements.txt and bank code"
+git push origin main
