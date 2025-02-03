@@ -4,7 +4,7 @@ import pandas as pd
 
 
 # Load the trained model and scaler
-scaler = joblib.load('scaler(1).pkl')
+scaler = joblib.load('scaler.pkl')
 # Load the model
 model = joblib.load('logistic_regression_model.pkl')
 
