@@ -67,6 +67,9 @@ if st.sidebar.button("Predict Subscription"):
 
     # Scale the input data (if your model expects scaled data)
     input_scaled = scaler.transform(input_data)
+     # Make prediction
+    prediction = model.predict(input_scaled)[0]
+
 
     # Show result
     st.success("Prediction: " + ("Yes" if prediction == 1 else "No"))
